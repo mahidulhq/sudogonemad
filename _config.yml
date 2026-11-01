@@ -2,7 +2,7 @@ title: sudogonemad // CTF Team
 email: mahikysr@gmail.com
 description: "Competitive CTF Team breaking binaries, web targets, cryptography, and forensics."
 baseurl: "" # Leave empty for root user/org GitHub pages or custom domains
-url: "https://sudogonemad.github.io" # Replace with your GitHub Pages URL domain
+url: "https://mahidulhq.github.io/sudogonemad/" # Replace with your GitHub Pages URL domain
 
 # Recruitment & Team Links
 recruitment_url: "https://forms.google.com/YOUR_GOOGLE_FORM_ID"
