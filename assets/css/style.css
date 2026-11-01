@@ -1,0 +1,17 @@
+/* Custom styling overrides and syntax highlighting */
+body {
+    background-color: #080c14;
+}
+
+pre {
+    background-color: #0f172a !important;
+    border: 1px solid #1e293b;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.875rem;
+}

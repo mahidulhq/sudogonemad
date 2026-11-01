@@ -1,0 +1,20 @@
+title: sudogonemad // CTF Team
+email: mahikysr@gmail.com
+description: "Competitive CTF Team breaking binaries, web targets, cryptography, and forensics."
+baseurl: "" # Leave empty for root user/org GitHub pages or custom domains
+url: "https://sudogonemad.github.io" # Replace with your GitHub Pages URL domain
+
+# Recruitment & Team Links
+recruitment_url: "https://forms.google.com/YOUR_GOOGLE_FORM_ID"
+discord_url: "https://discord.gg/YOUR_DISCORD_INVITE"
+ctftime_url: "https://ctftime.org/team/000000"
+github_url: "https://github.com/mahidulhq"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /writeups/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

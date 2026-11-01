@@ -1,0 +1,28 @@
+---
+layout: default
+title: "CTF Write-ups // sudogonemad"
+---
+<section class="max-w-7xl mx-auto px-4 py-12">
+    <div class="mb-8">
+        <h1 class="text-3xl font-extrabold text-white font-mono">&gt; ./writeups</h1>
+        <p class="text-slate-400 text-sm mt-1">Detailed challenge write-ups, vulnerability analysis, and CTF solutions published by sudogonemad members.</p>
+    </div>
+
+    <div class="space-y-4">
+        {% for post in site.posts %}
+        <article class="bg-slate-900/80 border border-slate-800 hover:border-cyber-cyan/50 p-6 rounded-xl transition-all">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                <h2 class="text-xl font-bold text-white hover:text-cyber-neon transition-colors">
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h2>
+                <span class="font-mono text-xs text-slate-400">{{ post.date | date: "%b %d, %Y" }}</span>
+            </div>
+            <p class="text-slate-400 text-sm mt-2">{{ post.summary }}</p>
+            <div class="flex items-center gap-4 mt-4 font-mono text-xs">
+                <span class="text-cyber-cyan">By: @{{ post.author }}</span>
+                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700">{{ post.category }}</span>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</section>

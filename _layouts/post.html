@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="max-w-4xl mx-auto px-4 py-12">
+    <div class="mb-8 border-b border-slate-800 pb-6">
+        <a href="{{ '/writeups/' | relative_url }}" class="font-mono text-xs text-cyber-cyan hover:underline">&larr; Back to Write-ups</a>
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">{{ page.title }}</h1>
+        <div class="flex flex-wrap items-center gap-4 mt-4 font-mono text-xs text-slate-400">
+            <span><i class="fa-regular fa-user text-cyber-neon"></i> {{ page.author }}</span>
+            <span><i class="fa-regular fa-calendar"></i> {{ page.date | date: "%B %d, %Y" }}</span>
+            <span class="px-2 py-0.5 rounded bg-slate-800 text-cyber-cyan border border-slate-700">{{ page.category }}</span>
+        </div>
+    </div>
+    
+    <div class="prose prose-invert max-w-none font-sans text-slate-300 leading-relaxed space-y-6">
+        {{ content }}
+    </div>
+</article>

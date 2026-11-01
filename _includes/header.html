@@ -1,0 +1,17 @@
+<header class="sticky top-0 z-50 backdrop-blur-md bg-slate-900/80 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+        <a href="{{ '/' | relative_url }}" class="font-mono font-bold text-lg text-cyber-neon flex items-center gap-2">
+            <i class="fa-solid fa-terminal"></i> &lt;<span class="text-cyber-cyan">sudo</span>gonemad/&gt;
+        </a>
+        <nav class="hidden md:flex space-x-6 font-mono text-xs">
+            <a href="{{ '/' | relative_url }}#about" class="text-slate-300 hover:text-cyber-neon transition-colors">./about</a>
+            <a href="{{ '/' | relative_url }}#members" class="text-slate-300 hover:text-cyber-neon transition-colors">./roster</a>
+            <a href="{{ '/' | relative_url }}#history" class="text-slate-300 hover:text-cyber-neon transition-colors">./ctf_logs</a>
+            <a href="{{ '/writeups/' | relative_url }}" class="text-slate-300 hover:text-cyber-neon transition-colors">./writeups</a>
+        </nav>
+        <a href="{{ site.recruitment_url }}" target="_blank" rel="noopener noreferrer" 
+           class="px-4 py-2 rounded font-mono text-xs font-bold text-black bg-cyber-neon hover:bg-emerald-400 transition-all shadow-[0_0_15px_rgba(0,255,157,0.4)]">
+           JOIN_TEAM
+        </a>
+    </div>
+</header>
