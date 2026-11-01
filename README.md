@@ -1,2 +1,0 @@
-# sudogonemad.github.io
-
